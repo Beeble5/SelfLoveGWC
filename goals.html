@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href = "GoalsStyle.css" href>
-		<link href = "GoalsScript.js" href>
-	
+		<link rel="stylesheet" type="text/css" href="GoalsStyle.css">
+		<script src="GoalsScript.js"></script>
 	</head>
 	<body>
-		<header>
-			<h1>Self Love</h1>
-			<h3>Your Goals</h3>
-		</header>
+		<div id="goalHead">
+		<h1>Self Love</h1>
+		</div>
+		
+		<div id="myDIV" class="header">
+			<h2>My Goals</h2>
+			<input type="text" id="myInput" placeholder="Text...">
+			<span onclick="newElement()" class="addBtn">Add</span>
+		</div>
+		
+		<ul id="myUL">
+			<li>Get in Shape</li>
+			<li>Dream Diary</li>
+			<li>Go out w/ friends</li>
+		</ul>
 	</body>
 	
 	</body>
