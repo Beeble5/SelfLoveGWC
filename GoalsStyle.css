@@ -1,6 +1,19 @@
-header {
+body {
+	background-color: #e5edf9;
+}
+
+#goalHead {
 	display: block;
 	background-color: #68b8d8;
 	padding:30px;
 	text-align: center;
 }
+
+#myDIV {
+	display: block;
+	padding: 30px;
+	text-align: center;
+}
+
+#myUL {
+	
