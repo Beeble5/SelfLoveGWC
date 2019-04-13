@@ -1,5 +1,7 @@
 body {
 	background-color: #e5edf9;
+	font-family: 'Abel';
+	flex-wrap: wrap;
 }
 
 #goalHead {
@@ -9,11 +11,26 @@ body {
 	text-align: center;
 }
 
-#myDIV {
+#myDIV.header{
 	display: block;
 	padding: 30px;
 	text-align: center;
+	border: 5px;
+	border-color: #686362;
 }
 
-#myUL {
-	
+#myUL{
+	display: block;
+	background-color: #ffd7c9;
+	pading-top: 7px;
+	outline-color: #686362;
+	font-size: 20px;
+} 
+
+span.close {
+	float: right;
+	display: block;
+	background-color: #99587f;
+	padding-left: 6px;
+	padding-right: 6px;
+}
